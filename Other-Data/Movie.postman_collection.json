@@ -1,0 +1,216 @@
+{
+	"id": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+	"name": "Movie",
+	"description": "",
+	"order": [
+		"9101521f-a541-eabf-837c-c6dc182825fc",
+		"23601b6b-682e-3c94-db10-bf6c46253875",
+		"ae2eb952-2fb2-f7a2-a161-22c101149b35",
+		"23e78386-b9a4-3e28-a29f-f8a0b0cb1f93",
+		"cd59d2fe-2fe0-3451-d89e-8f3a028e7348",
+		"98c01f79-6675-325a-d2cb-2a4a490bac46"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1520943553391,
+	"owner": "1806859",
+	"public": false,
+	"requests": [
+		{
+			"id": "23601b6b-682e-3c94-db10-bf6c46253875",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9090/get/?year=2018",
+			"queryParams": [
+				{
+					"key": "year",
+					"value": "2018",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9090/get/?year=2018",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521027583782,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "23e78386-b9a4-3e28-a29f-f8a0b0cb1f93",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9090/get/range/?low=6.1&high=7.9",
+			"queryParams": [
+				{
+					"key": "low",
+					"value": "6.1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "high",
+					"value": "7.9",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9090/get/range/?low=6.1&high=7.9",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521027377086,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9101521f-a541-eabf-837c-c6dc182825fc",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9090/get/name/?title=Aiyaary",
+			"queryParams": [
+				{
+					"key": "title",
+					"value": "Aiyaary",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521027524854,
+			"name": "http://localhost:9090/get/name/",
+			"description": "",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"responses": []
+		},
+		{
+			"id": "98c01f79-6675-325a-d2cb-2a4a490bac46",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521027484185,
+			"name": "http://localhost:9090/update/",
+			"description": "",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"responses": [],
+			"rawModeData": "{\n  \"id\":\"tt0090190\",\n  \"rating\":6.3,\n  \"genres\":\"drama,action\"\n}"
+		},
+		{
+			"id": "ae2eb952-2fb2-f7a2-a161-22c101149b35",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9090/get/?genres=comedy,drama",
+			"queryParams": [
+				{
+					"key": "genres",
+					"value": "comedy,drama",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9090/get/?genres=comedy,drama",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521027641662,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cd59d2fe-2fe0-3451-d89e-8f3a028e7348",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9090/get/range/?year1=2015&year2=2018",
+			"queryParams": [
+				{
+					"key": "year1",
+					"value": "2015",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "year2",
+					"value": "2018",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7712ec3a-20b2-c96d-f4af-ee0abb5ee535",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9090/get/range/?year1=2015&year2=2018",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521027412840,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
